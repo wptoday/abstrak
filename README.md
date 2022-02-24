@@ -1,8 +1,8 @@
 <h2>☀️ Responsive Portfolio Website Design Using HTML CSS & JavaScript With Light/Dark Mode 🌙</h2>
 
-<a href='https://youtu.be/cKSFflYWGGY' target='_blank'><h2>Watch This Video in YouTube</h2></a>
+<a href='https://youtu.be/8xdnPI6N_fQ' target='_blank'><h2>Watch This Video in YouTube</h2></a>
 
-<a href="https://youtu.be/cKSFflYWGGY" target='_blank'><img src="https://raw.githubusercontent.com/wptoday/Digibyte/main/Preview.jpg" alt="Digibyte" border="0" max-width='50%' ></a>
+<a href="https://youtu.be/8xdnPI6N_fQ" target='_blank'><img src="https://raw.githubusercontent.com/wptoday/abstrak/main/preview.jpg" alt="Abstrak" border="0" max-width='50%' ></a>
 </br></br>
 🪄 In this video, you will learn to create a responsive portfolio website design using HTML CSS & JavaScript (JQuery). There will be feature of switching dark/light mode. Users can select either dark mode or light mode. The chosen mode will save on the browser’s local storage and when users will come back they can use the site as their chosen mode. It’s all from scratch with source code. I used CSS Flexbox to create this website. 
 
