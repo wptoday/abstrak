@@ -1,0 +1,425 @@
+/* ==================== BREAKPOINTS ==================== */
+
+
+/* ----- X-Large devices (large desktops, 1200px and up) ----- */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+     :root {
+        --container-width: 1140px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .banner .banner-box .banner-content .title {
+        font-size: 60px;
+    }
+    .banner .banner-box .banner-thumbnail img {
+        margin-left: 0;
+    }
+    li.shape.shape-1 {
+        left: -70px;
+    }
+    li.shape.shape-2 img {
+        width: 80%;
+        height: auto;
+    }
+    .section-heading .title {
+        width: 100%;
+    }
+}
+
+
+/* ----- Large devices (desktops, 992px and up) ----- */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+     :root {
+        --container-width: 960px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .banner .banner-box .banner-content .title {
+        font-size: 60px;
+    }
+    .banner .banner-box .banner-thumbnail img {
+        margin-left: 0;
+    }
+    li.shape.shape-1 {
+        left: -70px;
+    }
+    li.shape.shape-2 img {
+        width: 65%;
+        height: auto;
+    }
+    li.shape.shape-6 {
+        left: 40%;
+        top: 210px;
+    }
+    .section-heading .title {
+        width: 100%;
+    }
+    .single-project .content .title {
+        font-size: 36px !important;
+    }
+    .testimonials .followers-list li a i {
+        margin-right: 10px;
+    }
+    .contact .contact-form-box .title {
+        font-size: 32px;
+    }
+}
+
+
+/* ----- Medium devices (tablets, 768px and up) ----- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     :root {
+        --container-width: 760px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .banner {
+        padding: 240px 0 140px;
+    }
+    .banner .banner-box .banner-content {
+        width: 100%;
+    }
+    .banner .banner-box .banner-thumbnail {
+        width: 100%;
+    }
+    .banner .banner-box .banner-content .title {
+        font-size: 60px;
+    }
+    .btn-primary {
+        padding: 20px 35px;
+    }
+    .banner .banner-box .banner-thumbnail {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner .banner-box .banner-thumbnail img {
+        margin-left: 0;
+    }
+    .my_switcher {
+        display: none;
+    }
+    .my_switcher.menu {
+        display: block;
+    }
+    li.shape.shape-1 {
+        left: -70px;
+    }
+    li.shape.shape-2 img {
+        width: 65%;
+        height: auto;
+    }
+    li.shape.shape-2,
+    li.shape.shape-3,
+    li.shape.shape-4,
+    li.shape.shape-6 {
+        display: none;
+    }
+    .section-heading .title {
+        width: 100%;
+        font-size: 50px;
+    }
+    .section-heading p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .projects-wrapper .single-project .content {
+        top: 30px;
+        left: 30px;
+    }
+    .single-project .content .title {
+        font-size: 36px !important;
+    }
+    .brands .brands-wrapper {
+        text-align: center;
+    }
+    .brands .brands-wrapper .brand-grid {
+        flex-basis: 50%;
+    }
+    li.shape.shape-11 {
+        top: 140px;
+        right: 30px;
+    }
+    .testimonials .testimonial-wrapper .testimonial-grid {
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .testimonials .followers-list li span {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .testimonials .followers-list li a i {
+        margin-right: 10px;
+    }
+    .contact .contact-top,
+    .contact .contact-form-box {
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .contact .section-heading {
+        margin-bottom: 80px;
+    }
+    .contact .contact-form-box .title {
+        font-size: 32px;
+    }
+}
+
+
+/* ----- Small devices (landscape phones, 576px and up) ----- */
+
+@media (min-width: 576px) and (max-width: 767px) {
+     :root {
+        --container-width: 540px;
+    }
+    .container {
+        max-width: var(--container-width);
+    }
+    .banner {
+        padding: 240px 0 100px;
+    }
+    .banner .banner-box .banner-content {
+        width: 100%;
+    }
+    .banner .banner-box .banner-thumbnail {
+        width: 100%;
+    }
+    .banner .banner-box .banner-content .title {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .btn-primary {
+        padding: 20px 35px;
+    }
+    .banner .banner-box .banner-thumbnail {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner .banner-box .banner-thumbnail img {
+        margin-left: 0;
+    }
+    .my_switcher {
+        display: none;
+    }
+    .my_switcher.menu {
+        display: block;
+        margin-left: 10px;
+    }
+    li.shape.shape-1 {
+        left: -70px;
+    }
+    li.shape.shape-2 img {
+        width: 65%;
+        height: auto;
+    }
+    li.shape.shape-2,
+    li.shape.shape-3,
+    li.shape.shape-4,
+    li.shape.shape-6 {
+        display: none;
+    }
+    .section-heading .title {
+        width: 100%;
+        font-size: 50px;
+    }
+    .section-heading p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .projects-wrapper .single-project {
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .projects-wrapper .single-project .content {
+        top: 30px;
+        left: 30px;
+    }
+    .single-project .content .title {
+        font-size: 36px !important;
+    }
+    .brands .brands-wrapper {
+        text-align: center;
+    }
+    .brands .brands-wrapper .brand-grid {
+        flex-basis: 50%;
+    }
+    li.shape.shape-11 {
+        top: 100px;
+        right: 30px;
+    }
+    .testimonials .testimonial-wrapper .testimonial-grid {
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .testimonials .followers-list li span {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .testimonials .followers-list li a i {
+        margin-right: 10px;
+    }
+    .contact .contact-top,
+    .contact .contact-form-box {
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .contact .section-heading {
+        margin-bottom: 80px;
+    }
+    .contact .contact-form-box .title {
+        font-size: 32px;
+    }
+    .footer-area .footer-bottom .left,
+    .footer-area .footer-bottom .right {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+
+/* ----- X-Small devices (portrait phones, less than 576px) ----- */
+
+@media (max-width: 575px) {
+     :root {
+        --container-width: 100%;
+    }
+    .container {
+        max-width: var(--container-width);
+        padding: 0 15px;
+    }
+    .banner {
+        padding: 240px 0 100px;
+    }
+    .banner .banner-box .banner-content {
+        width: 100%;
+    }
+    .banner .banner-box .banner-thumbnail {
+        width: 100%;
+    }
+    .banner .banner-box .banner-content .title {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .btn-grp {
+        flex-direction: column;
+    }
+    .banner .banner-box .banner-content .btn-grp .btn {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .btn-primary {
+        padding: 20px 35px;
+    }
+    .banner .banner-box .banner-thumbnail {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner .banner-box .banner-thumbnail img {
+        margin-left: 0;
+    }
+    .my_switcher {
+        display: none;
+    }
+    .my_switcher.menu {
+        display: block;
+        margin-left: 10px;
+    }
+    li.header-social-link {
+        display: none;
+    }
+    li.shape.shape-1 {
+        left: -70px;
+    }
+    li.shape.shape-2 img {
+        width: 65%;
+        height: auto;
+    }
+    li.shape.shape-2,
+    li.shape.shape-3,
+    li.shape.shape-4,
+    li.shape.shape-6 {
+        display: none;
+    }
+    .section-heading .title {
+        width: 100%;
+        font-size: 50px;
+    }
+    .section-heading p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .projects-wrapper .single-project {
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .projects-wrapper .single-project .content {
+        top: 30px;
+        left: 30px;
+    }
+    .single-project .content .title {
+        font-size: 36px !important;
+    }
+    .brands .brands-wrapper {
+        text-align: center;
+    }
+    .brands .brands-wrapper .brand-grid {
+        flex-basis: 50%;
+    }
+    li.shape.shape-11 {
+        top: 100px;
+        right: 30px;
+    }
+    .testimonials .section-heading p {
+        margin-bottom: 30px;
+    }
+    .testimonials .testimonial-wrapper .testimonial-grid {
+        flex-basis: 100%;
+        margin: 0;
+        padding: 30px 0 30px;
+    }
+    .testimonials .followers-list li span {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .testimonials .followers-list {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .testimonials .followers-list li {
+        margin: 20px 0;
+    }
+    .testimonials .followers-list li a i {
+        margin-right: 10px;
+    }
+    .contact .contact-top,
+    .contact .contact-form-box {
+        flex-basis: 100%;
+        margin: 0;
+        padding: 50px 30px 50px 30px;
+    }
+    .contact .address-list .address p {
+        width: 100%;
+    }
+    .contact .section-heading {
+        margin-bottom: 80px;
+    }
+    .contact .contact-form-box .title {
+        font-size: 32px;
+    }
+    .footer-area .footer-bottom .left,
+    .footer-area .footer-bottom .right {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}

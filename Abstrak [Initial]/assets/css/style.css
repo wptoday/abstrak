@@ -1,0 +1,46 @@
+/* ----- GLOBAL RESET ----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----- GLOBAL VARRIABLES ----- */
+
+:root {
+    --container-width: 1320px;
+    --color-primary: #5956e9;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-light: #ecf2f6;
+    --color-dark: #27272e;
+    --color-text-dark: #292930;
+    --color-accent1: #ffdc60;
+    --color-accent2: #fab8c4;
+    --color-blue-shade: #6865ff;
+    --color-link: #2522ba;
+    --color-mabel: #dbf8ff;
+    --color-fog: #dbdeff;
+    --color-pink-shade: #ffd3db;
+    --color-peach: #ffeddc;
+    --color-rose: #c75c6f;
+    --color-chart1: #896ba7;
+    --color-chart2: #badeff;
+    --color-body: #525260;
+    --color-gray-1: #757589;
+    --color-gray-2: #999fae;
+    --color-gray-3: #999ab8;
+    --color-gray-4: #99a1aa;
+    --color-ship-gray: #42424a;
+    --color-ghost: #c7c7d5;
+    --color-mercury: #e5e5e5;
+    --color-dribble: #ea4c89;
+    --color-behance: #0067ff;
+    --color-linkedin: #0177ac;
+    --border-lighter: 1px solid #ECF2F6;
+    --transition: all 0.3s ease-in-out;
+    --font-primary: 'DM Sans', sans-serif;
+    --font-secondary: 'Poppins', sans-serif;
+}
